@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: monospace;
+}
+.heading{
+  font-size: 0.875rem;
+}
+.login{
+  width: 258px;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  background-color: white;
+}
+.login-label{
+  display: block;
+  margin: 5px 12px;
+  text-align: left;
+}
+.id-passwd{
+  -webkit-transition: all 0.30s ease-in-out;
+  display: block;
+  width: 220px;
+  margin: 10px;
+  padding: 8px;
+  text-align: center;
+  outline: none;
+  border: 1px solid #d1d5da;
+  border-radius: 5px;
+}
+.id-passwd:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.login-button{
+  -webkit-transition: all 0.30s ease-in-out;
+  margin: 10px;
+  padding: 8px;
+  width: 238px;
+  outline: none;
+  border: 1px solid #d1d5da;
+  border-radius: 5px;
+  font-family: monospace;
+  background-color: #d4e09b;
+}
+.login-button:active,
+.login-button:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid green;
+}
+@media only screen and (max-width:720px) {
+  .larger-device{
+    display: none;
+  }
+
+}
+@media only screen and (min-width:721px) {
+  .smaller-device{
+    display: none;
+  }
+}
